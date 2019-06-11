@@ -4,7 +4,6 @@
 int main()
 {
     int b;
-    printf("Enter a number");
     scanf("%d",&b);
     if (b<0){
         printf("\nNegative");
