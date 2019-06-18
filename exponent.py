@@ -1,3 +1,3 @@
-n=int(input())
-k=int(input())
-print(n**k)
+num1=int(input())
+exp=int(input())
+print(num1**exp)
