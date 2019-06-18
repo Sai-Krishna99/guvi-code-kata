@@ -1,3 +1,3 @@
-num1=int(input())
-exp=int(input())
-print(num1**exp)
+number=int(input())
+exponent=int(input())
+print(number**exponent)
