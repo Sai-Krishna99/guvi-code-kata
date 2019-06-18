@@ -6,6 +6,10 @@ int main()
     int num1,num2,i,flag;
     scanf("%d",&num1);
     scanf("%d",&num2);
+    if(num1=1)
+    {
+        num1++;
+    }
     while(num1<num2)
     {
         flag=0;
@@ -19,7 +23,7 @@ int main()
             }
             if(flag==0)
             {
-                printf("%d ",num1);
+                printf("%d\t",num1);
             }
             ++num1;
     }
