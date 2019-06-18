@@ -19,7 +19,7 @@ int main()
             }
             if(flag==0)
             {
-                printf("%d\t",num1);
+                printf("%d ",num1);
             }
             ++num1;
     }
