@@ -8,7 +8,7 @@ int main()
     scanf("%d",&num2);
     if(num1=1)
     {
-        num1++;
+        num1+=1;
     }
     while(num1<num2)
     {
