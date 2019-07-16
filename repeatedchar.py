@@ -6,7 +6,7 @@ for i in range(0,inp):
         if (array[i]==array[j]):
             c.append(array[i])
 if(len(c)==0):
-    print("Unique")
+    print("unique")
 else:
     c.sort()
 if(len(set(c))==1):
