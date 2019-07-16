@@ -1,11 +1,11 @@
-a=int(input())
-str=list(map(int,input().split()))
-count=dict()
-for word in str: 
-    if word not in count:
-        count[word]=1
+inp=int(input())
+array=list(map(int,input().split()))
+c=dict()
+for i in str: 
+    if i not in count:
+        c[i]=1
     else:
-        count[word]+=1
-for word in str:
-    if (count[word]==1):
-        print(word)
+        c[i]+=1
+for i in str:
+    if (c[i]==1):
+        print(i)
