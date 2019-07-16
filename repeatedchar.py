@@ -11,6 +11,6 @@ else:
     c.sort()
 if(len(set(c))==1):
     print(c[0])
-else:
+else
     for l in range(0,len(c)):
         print(c[l],end=" ")
