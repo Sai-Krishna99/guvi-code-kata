@@ -1,4 +1,4 @@
-a,b=map(int,input().split())
-for i in range(a+1,b):
-    if(i%2!=0):
-        print(i,end=" ")
+num1,num2=map(int,input().split())
+for num in range(num1+1,num2):
+    if(num%2!=0):
+        print(num,end=" ")
