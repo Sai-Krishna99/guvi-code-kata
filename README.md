@@ -1,1 +1,1 @@
-# guvi-code-kata
+Coding assignments as part of learning C programming.
